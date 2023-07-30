@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+    <link rel = "stylesheet" href="css/main.css";
+</head>
+<body>
+    <form>
+        Tên: <input type="text" name="name" value="" ><br>
+        Giới tính: <input type="radio" name="sex" id="1" checked> Nam <input type="radio" name="sex" id="1"> Nu<br>
+        Game đã chơi:<br>
+        <input type="checkbox" name="" id="">Lien quan<br>
+        <input type="checkbox" name="" id="">Angry bird<br>
+        <input type="checkbox" name="" id="" checked>Fifai<br>
+        <input type="hidden" name="hidden" value="this is content">
+        Địa chỉ: <br>
+        <select name="Address" id="">
+            <optgroup label="Miền Bắc">
+                <option value="Vĩnh Phúc" selected>Vĩnh Phúc</option><br>
+                <option value="Hà Nội">Hà Nội</option><br>
+            </optgroup>
+            <optgroup label="Miền Trung">
+                <option value="Nghệ An">Nghệ An</option><br>
+                <option value="Thanh Hóa">Thanh Hóa</option><br>
+            </optgroup>
+            <optgroup label = "Miền Nam">
+                <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option><br>
+                <option value="Bình Dương vô vọng">Bình Dương vô vọng</option><br>
+            </optgroup>
+        </select><br>
+        Email: <input type="email" name="email" value=""><br>
+        Tên đăng nhập: <input type="text" name="username", value=""><br>
+        Mật khẩu: <input type="password", name="password", value=""><br>
+        Ảnh cá nhân: <input type="file" name="" id="">;<br>
+        Góp ý: <br><textarea name="góp ý" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="submit" id="" value="Gửi đi">
+        <input type="reset" name="reset" id="" value="Đặt lại">
+        <button>Về đăng nhập</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasuke</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <hr/>
+    <h1 style="background-color: darkgray;color:blue; text-align: center;">Tiêu đề 1</h1>
+    <h2>Tiêu đề 2</h2>
+    
+    <hr/>
+
+    <p>
+        Naruto <br>
+        Sasuke
+    </p>
+
+    <pre>
+        Naruto 
+            Sasuke
+    </pre>
+
+    <a href="https://www.facebook.com/263itachi/" target="_blank">Facebook của mình nè</a><br>
+    <a href="mailto:nvhanh263@gmail.com">Liên hệ thầy Hạnh</a><br><br>
+    <table border="1">
+        <tr>
+            <th>Charactor</th>
+            <th>Votes</th>
+        </tr>
+        <tr>
+            <td>Naruto</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Sasuke</td>
+            <td>60%</td>
+        </tr>
+    </table>
+    <img src="image/sasuke.jpg" alt="error" width="400px">
+    <hr/>
+</body>
+
+</html>

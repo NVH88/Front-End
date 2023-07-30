@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <dir id = "container">
+        <form action="" method="post" style="border-radius: 20px; width: 500px;background: #fbf6f66b;height: 1200px; margin: 10px auto;padding-left: 20px;padding-right: 20px;font-family: system-ui;">
+            <h1 style="text-align: center;padding: 10px;font-size: 35px;">Sign Up</h1>
+            <br>
+            <span style="display: inline-block;background: #6dd22a;color: white;border-radius: 100%;padding: 2px 12px 4px 12px;font-weight: bold;font-size: 22px;">1</span>
+            <span style="font-weight: bold;font-size: 23px;">Your basic info</span>
+            <br>
+            <br>
+            <span style="font-weight: bold;">Name:</span>
+            <br>
+            <input type="text" name="name" id="" placeholder="Input your name here" style="margin-bottom: 10px;margin-top: 10px;width: 500px;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;font-size: 15px;border: none;">
+            <br>
+            <br>
+            <span style="font-weight: bold;">Email:</span>
+            <br>
+            <input type="email" name="name" id="" placeholder="Input your email" style="margin-bottom: 10px;margin-top: 10px;width: 500px;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;font-size: 15px;border: none;">
+            <br>
+            <br>
+            <span style="font-weight: bold;">Password:</span>
+            <br>
+            <input type="password" name="name" id="" placeholder="Input your password" style="margin-bottom: 10px;margin-top: 10px;width: 500px;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;font-size: 15px;border: none;">
+            <br>
+            <br>
+            <span style="font-weight: bold;">Age:</span>
+            <br>
+            <input type="radio" value="under13" name="age">Under 13</input>
+            <br>
+            <input type="radio" value="older13" name="age">13 or older</input>
+            <br>
+            <br>
+            <br>
+            <span style="display: inline-block;background: #6dd22a;color: white;border-radius: 100%;padding: 2px 12px 6px 13px;font-weight: bold;font-size: 22px;">2</span>
+            <span style="font-weight: bold;font-size: 23px;">Your profile</span>
+            <br>
+            <br>
+            <span style="font-weight: bold;">Biography:</span>
+            <br>
+            <br>
+            <textarea name="Biography" id="" cols="30" rows="20" placeholder="Input your Bio here" style="height: 100px; width: 500px; border: none;"></textarea>
+            <br>
+            <br>
+            <span style="font-weight: bold;">Job role:</span>
+            <br>
+            <select name="jobRole" id="" style="width: 500px; border: none;">
+                <optgroup label="Web">
+                    <option value="Front-End Developer">Front-End Developer</option>
+                    <option value="PHP Developer">PHP Developer</option>
+                    <option value="Python Developer">Python Developer</option>
+                    <option value="Rails Developer">Rails Developer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="WordPress Developer">WordPress Developer</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                    <option value="Android Developer">Android Developer</option>
+                    <option value="IOS Developer">IOS Developer</option>
+                    <option value="Mobile Developer">Mobile Developer</option>
+                </optgroup>
+                <optgroup label="Business">
+                    <option value="Business Owner">Business Owner</option>
+                    <option value="Freelancer">Freelancer</option>
+                </optgroup>
+                <optgroup label="Other">
+                    <option value="Secretary">Secretary</option>
+                    <option value="Maintenance">Maintenance</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <br>
+            <span style="font-weight: bold;">Interests:</span>
+            <br>
+            <input type="checkbox" name="Development">Development
+            <br>
+            <input type="checkbox" name="Design">Design
+            <br>
+            <input type="checkbox" name="Business">Business
+            <br>
+            <br>
+            <br>
+            <input type="submit" name="Sign Up" id="" value="Sign Up" style="height: 60px;width: 500px;background: #37ee39;color: white;font-size: 20px;font-weight: bold;border: none;border-radius: 12px;">
+        </form>
+    </dir>
+</body>
+</html>

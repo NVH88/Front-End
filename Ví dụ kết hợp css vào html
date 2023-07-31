@@ -1,0 +1,51 @@
+/* main.css */
+input{
+    padding-left: 10px;
+    margin-left: 20px;
+    border-color: blue;
+}
+
+span{
+    font-size: 20px;
+    color: #69ad1b;
+}
+
+.txtarea{
+    width: 300px;
+    height: 100px;
+    background-color: #f2f4e4;
+}
+
+#nutgui {
+    width: 200px;
+    color: green;
+    background-color: whitesmoke;
+}
+
+<!-- guiAnh.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <span>Tên:</span>
+    <input type="text" placeholder="Nhập tên vào đây">
+    <br><br>
+    <span>Email:</span>
+    <input type="email" placeholder="Nhập email vào đây">
+    <br><br>
+    <span>Chọn ảnh:</span>
+    <input type="file">
+    <br><br>
+    <span>Mô tả:</span>
+    <br>
+    <textarea name="txta" id="" cols="30" rows="10" class="txtarea"></textarea>
+    <br>
+    <br>
+    <input type="submit" name="" id="nutgui" value="Gửi đi">
+</body>
+</html>

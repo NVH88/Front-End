@@ -1,0 +1,89 @@
+/*css*/
+.textlayout{
+    color: blue;
+    text-align: center;
+    text-decoration: underline, overline, line-through;
+    text-indent: 10px;
+}
+  
+#fontlayout{
+    font-size: 30px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ulistlayout{
+    list-style-type:circle;
+}
+
+#olistlayout{
+    list-style-type: lower-greek;
+}
+
+a.linklayout:link{ 
+    color: red;
+}
+
+a.linklayout2:visited{ 
+    color: red;
+}
+
+a.linklayout3:active{ 
+    color: red;
+}
+
+a.linklayout4:hover{ 
+    color: red;
+}
+
+/*html*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <p class="textlayout"> Ví dụ về text layout nè</p>
+    <p id="fontlayout"> Ví dụ về font layout nè</p>
+    <ul class = "ulistlayout">
+        <li>ví dụ 1</li>
+        <li>ví dụ 2</li>
+    </ul>
+    
+    <ol id="olistlayout">
+        <li>ví dụ 1</li>
+        <li>ví dụ 2</li>
+    </ol>
+    
+    <a class="linklayout" href="https://www.facebook.com/263itachi/">FB của tui</a>
+    <br>
+    <a class="linklayout" href="https://jsbin.com/qapipib/edit?html,css,output">jsbin nè</a>
+    <br>
+    <a class="linklayout" href="abc.com">abc</a>
+    <br>
+    <br>
+    <a class="linklayout2" href="https://www.facebook.com/263itachi/">FB của tui</a>
+    <br>
+    <a class="linklayout2" href="https://jsbin.com/qapipib/edit?html,css,output">jsbin nè</a>
+    <br>
+    <a class="linklayout2" href="abc.com">abc</a>
+    <br>
+    <br>
+    <a class="linklayout3" href="https://www.facebook.com/263itachi/">FB của tui</a>
+    <br>
+    <a class="linklayout3" href="https://jsbin.com/qapipib/edit?html,css,output">jsbin nè</a>
+    <br>
+    <a class="linklayout3" href="abc.com">abc</a>
+    <br>
+    <br>
+    <a class="linklayout4" href="https://www.facebook.com/263itachi/">FB của tui</a>
+    <br>
+    <a class="linklayout4" href="https://jsbin.com/qapipib/edit?html,css,output">jsbin nè</a>
+    <br>
+    <a class="linklayout4" href="abc.com">abc</a>
+</body>
+</html>

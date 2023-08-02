@@ -1,0 +1,54 @@
+/* css */
+table{
+    width:500px;
+    height:400px;
+    background-color:gray;
+    border-spacing:20px;
+    border-collapse:separate;
+}
+  
+th, td{
+    background-color:white; 
+    text-align:center;
+    vertical-align:middle;
+}
+
+<!-- html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viduTable</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <table border=1px>
+        <tr>
+          <th>STT</th>
+          <th>Họ và Tên</th>
+          <th>GPA</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Nguyễn Văn Hạnh</td>
+          <td>3.0</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Nguyễn Văn Tèo</td>
+          <td>4.0</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Trần Văn Tí</td>
+          <td>3.5</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Hoàng Ngọc Thìn</td>
+          <td>3.7</td>
+        </tr>
+      </table>
+</body>
+</html>

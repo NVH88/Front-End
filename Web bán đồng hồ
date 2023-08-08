@@ -1,0 +1,688 @@
+/* css */
+
+body{
+    margin: 0px;
+}
+
+.top{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giohang{
+    margin-left: auto;
+    color:white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.giohang p{
+    margin: 5px;
+    padding: 0px;
+}
+
+.giohang a:link, .giohang a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.giohang a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    text-align: center;
+    font-size: 37px;
+    border-bottom: solid 1px #decbcb;
+}
+
+.logo a:link, .logo a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    text-decoration: underline;
+}
+
+
+.left{
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+
+.right{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+
+.left ul li{
+    float: left;
+    margin-right: 50px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+li a:link, li a:visited{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+li a:hover{
+    color:green;
+}
+
+.containsearch{
+    position: relative;
+}
+
+#txtsearch {
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 200px;
+    border: none;
+    position: absolute;
+}
+
+#btnsearch{
+    background: url(../image/watchStore/iconsearch.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.about{
+    margin-top: 70px;
+}
+
+.sanPhamNoiBat{
+    flex: 0 0 30%;
+}
+
+.sanPhamNoiBat img{
+    width: 100%;
+    height: auto;
+}
+
+.product{
+    padding-top: 50px;
+}
+
+.objProduct{
+    width: 20%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border: 1px solid #dec3c38c;
+}
+
+.imgProduct{
+    width: 100%;
+}
+
+.imgProduct img{
+    width: 100%;
+}
+
+.ttProduct{
+    margin-top: 20px;
+}
+
+.txt1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.txt2{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.txt2 a:link, .txt2 a:visited{
+    color: #73739c;
+    text-decoration: none;
+}
+
+.txt2 a:hover{
+    color: green;
+}
+
+.gioHangTrang{
+    width: 100%;
+    height: 30px;
+}
+
+.gioHangTrang img{
+    float: left;
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.gioHangTrang p{
+    font-weight: bold;
+    padding-left: 5px;
+    float: left;
+}
+
+.txt3{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.socialClass{
+    width: 235.6px;
+    margin-top: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.socialClass ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.socialClass ul li a:link, .infor ul li a:visited{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.socialClass :hover{
+    color: green;
+}
+
+.social{
+    width: 10px;
+    height: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#facebook{
+    background: url(../image/watchStore/logofb.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+#tiktok{
+    background: url(../image/watchStore/logotiktok.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+#instagram{
+    background: url(../image/watchStore/logoins.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.textSocial{
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    color: gray;
+}
+
+.infor{
+    width: 235.6px;
+    margin-top: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.infor ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.infor ul li a:link, .infor ul li a:visited{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+.infor ul li a:hover{
+    color: green;
+}
+
+.phanVung{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    border-color: #c4d5d675;
+}
+
+.footer{
+    margin-bottom: 50px;
+}
+
+.childFooter{
+    width: 50%;
+}
+
+#textFooter{
+    width: 250px;
+    height: 30px;
+}
+
+#submitFooter{
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-color: #14de8a;
+}
+
+#rightFooter{
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+<!-- html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- top header -->
+    <div class="top">
+        <div class="container">
+            <div class="giohang">
+                <a href="#"><img src="image/watchStore/gio hang den.png" alt="anh gio hang" height=30px></a>
+                <a href="#"><p>Empty cart</p></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo -->
+    <div class="logo">
+        <a href="http://127.0.0.1:5500/webDongHo.html">
+            <p>LUXURY WATCHES</p>
+        </a>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="containsearch">
+                    <form action="#">
+                        <input id="txtsearch" type="text" placeholder="search">
+                        <input id="btnsearch" type="submit" value="">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="image/watchStore/bia.jpg" alt="Banner">
+    </div>
+
+    <!-- 3 mục tiêu biểu -->
+    <div class="about">
+        <div class="container">
+            <div class="sanPhamNoiBat">
+                <img src="image/watchStore/noiBat1.png" alt="San pham noi bat 1">
+            </div>
+            <div class="sanPhamNoiBat">
+                <img src="image/watchStore/noiBat2.png" alt="San pham noi bat 2">
+            </div>
+            <div class="sanPhamNoiBat">
+                <img src="image/watchStore/noiBat3.png" alt="San pham noi bat 3">
+            </div>
+        </div>
+    </div>
+
+    <!-- các sản phẩm -->
+    <div class="product">
+        <div class="container">
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp1.webp" alt="sp1">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp2.webp" alt="sp2">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp3.webp" alt="sp3">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp4.webp" alt="sp4">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="container">
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp5.webp" alt="sp5">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp6.webp" alt="sp6">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp7.webp" alt="sp7">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp8.webp" alt="sp8">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="container">
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp9.webp" alt="sp9">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp10.webp" alt="sp10">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp11.webp" alt="sp11">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objProduct">
+                <div class="imgProduct">
+                    <img src="image/watchStore/sp12.webp" alt="sp12">
+                </div>
+                <div class="ttProduct">
+                    <div class="txt1">SMART WATCHES</div>
+                    <div class="txt2">
+                        <a href="#">EXPLORE NOW</a>
+                    </div>
+                    <div class="gioHangTrang">
+                        <a href="#"><img src="image/watchStore/gioHangTrang.jpg" alt="gioHangTrang"></a>
+                        <p>$350</p>
+                    </div>
+                    <div class="txt3">
+                        <p>-50%</p>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+    <!-- Thông tin -->
+    <div class="ThongTin">
+        <div class="container">
+            <div class="socialClass">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/263itachi/" target="_blank"><span class="social" id="facebook"></span><span class="textSocial">Facebook</span></a></li>
+                    <li><a href="https://www.tiktok.com/@uchiha.itachi_________" target="_blank"><span class="social" id="tiktok"></span><span class="textSocial">TikTok</span></a></li>
+                    <li><a href="https://www.instagram.com/nvhanhzz/" target="_blank"><span class="social" id="instagram"></span><span class="textSocial">Instagram</span></a></li>
+                </ul>
+            </div>
+
+            <div class="infor">
+                <h2>Information</h2>
+                <ul>
+                    <li><a href="#"><span>Specials</span></a></li>
+                    <li><a href="#"><span>New Products</span></a></li>
+                    <li><a href="#"><span>Our Stores</span></a></li>
+                    <li><a href="#"><span>Contact Us</span></a></li>
+                    <li><a href="#"><span>Top Sellers</span></a></li>
+                </ul>
+            </div>
+
+            <div class="infor">
+                <h2>My Account</h2>
+                <ul>
+                    <li><a href="#"><span>My Account</span></a></li>
+                    <li><a href="#"><span>My Credit slips</span></a></li>
+                    <li><a href="#"><span>My Merchandise returns</span></a></li>
+                    <li><a href="#"><span>My Personal infor</span></a></li>
+                    <li><a href="#"><span>My Address</span></a></li>
+                </ul>
+            </div>
+
+            <div class="infor">
+                <h2>Store Information</h2>
+                <ul>
+                    <li><a href="#"><span>Sasuk3</span></a></li>
+                    <li><a href="#"><span>Thanh Lang, Binh Xuyen, Vinh Phuc</span></a></li>
+                    <li><a href="#"><span>+84 386987192</span></a></li>
+                    <li><a href="#"><span>nvhanh263@gmail.com</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- line -->
+    <div class="container">
+        <hr class="phanVung">
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="childFooter" id="leftFooter">
+                <input type="text" id="textFooter" placeholder="Enter your email">
+                <input type="submit" id="submitFooter" value="Subcribe">
+            </div>
+
+            <div class="childFooter" id="rightFooter">
+                <p>Create by Nguyen Van Hanh</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
